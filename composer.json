@@ -11,10 +11,15 @@
         "email": "william.durand1@gmail.com"
     }
     ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@github.com:PureFluffySoul/Hateoas.git"
+        }
+    ],
     "require": {
         "php": ">5.4 |^7.0",
         "symfony/framework-bundle": "~2.3 || ~3.0 || ~4.0",
-        "willdurand/hateoas": "^2.10.0",
         "jms/serializer-bundle": "~1.0 || ^2.0"
     },
     "require-dev": {
